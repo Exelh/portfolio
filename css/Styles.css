@@ -528,7 +528,9 @@ color: white;
   }
   /* Añadir espaciado entre el nombre y la imagen de avatar */
   .nombre {
+    width: 100%;
     margin-top: 1rem;
+    font-size: 55px;
   }
   .popup {
     display: none;
@@ -579,11 +581,13 @@ color: white;
   }
   /* Alinear el contenido del pie de página al centro */
   footer {
+    width: 100%;
     text-align: center;
   }
 
   /* Añadir espaciado en el pie de página */
   footer p {
+    text-align: center;
     margin: 0.5rem 0;
   }
   .ctd{
@@ -592,11 +596,12 @@ color: white;
     display: flex;
     flex-direction: column;
   }
-  .ctd img {
+  .ctd a {
     width: 100%;
   }
   .materias-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10%;
   }
 }
