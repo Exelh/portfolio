@@ -528,7 +528,7 @@ color: white;
   }
   /* Añadir espaciado entre el nombre y la imagen de avatar */
   .nombre {
-    background: linear-gradient(to top, #2e3834, #eaeced);
+    color:  #838987;
     width: 100%;
     margin-top: 1rem;
     font-size: 40px;
