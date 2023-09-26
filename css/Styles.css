@@ -85,8 +85,10 @@ ul li a {
   padding: 10px;
   z-index: 998;
   filter: none;
-  width: 25%;
-  height: 53%;
+  width: 80%; /* Usar un porcentaje para el ancho del popup */
+  max-width: 600px; /* Limitar el ancho máximo en pantallas grandes */
+  background: #fff; /* Cambiar el fondo del popup a blanco */
+  overflow-y: auto; /*Agregar una barra de desplazamiento vertical si es n*/
 
 }
 
@@ -259,8 +261,10 @@ body.popup-opened {
   padding: 10px;
   z-index: 998;
   filter: none;
-  width: 35%;
-  height: 50%;
+  width: 80%; /* Usar un porcentaje para el ancho del popup */
+  max-width: 600px; /* Limitar el ancho máximo en pantallas grandes */
+  background: #fff; /* Cambiar el fondo del popup a blanco */
+  overflow-y: auto; /*Agregar una barra de desplazamiento vertical si es n*/
 }
 
 .popup-content {
@@ -268,7 +272,7 @@ body.popup-opened {
   background: linear-gradient(to bottom,#000407, #000407);;
   position: relative;
   align-items: center;
-  padding: 20px;
+  padding: 20px; 
   border-radius: 18px;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
   text-align: center;
@@ -279,7 +283,7 @@ body.popup-opened {
   
 }
 .popup-content h2 {
-  font-size: 32px; /* Tamaño del título */
+  font-size: 32px; Tamaño del título
   margin: 5%; /* Espacio entre el título y el párrafo */
   font-weight: bold;
   color: #276b78;
@@ -522,8 +526,9 @@ color: white;
     padding: 10px;
     z-index: 998;
     filter: none;
-    width: 80%;
-    height: 55%;
+    width: 90%; /* Reducir el ancho del popup en pantallas más pequeñas */
+    max-width: none; /* Eliminar el límite máximo de ancho */
+    padding: 15px; /
 
   }
   /* Añadir espaciado entre el nombre y la imagen de avatar */
@@ -543,8 +548,9 @@ color: white;
     padding: 10px;
     z-index: 998;
     filter: none;
-    width: 80%;
-    height: 60%;
+    width: 90%; /* Reducir el ancho del popup en pantallas más pequeñas */
+    max-width: none; /* Eliminar el límite máximo de ancho */
+    padding: 15px; /
   }
 
   /* Alinear el avatar al centro en pantallas pequeñas */
